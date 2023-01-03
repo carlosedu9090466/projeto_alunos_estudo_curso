@@ -31,5 +31,6 @@ module.exports = {
     "react/prop-types": "off",
     "eslint-disable-next-line": 0,
     "default-param-last": "off",
+    "no-unused-vars": "off",
   },
 };

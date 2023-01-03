@@ -11,8 +11,8 @@ const sagaMiddleware = createSagaMiddleware();
 
 // reducer - escuta e dispara
 const store = createStore(
-    persistedReducers(rootReducer),
-    applyMiddleware(sagaMiddleware)
+  persistedReducers(rootReducer),
+  applyMiddleware(sagaMiddleware)
 );
 
 sagaMiddleware.run(rootSaga);
